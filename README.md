@@ -1,16 +1,18 @@
 # WEATHER APP
 Đây là app hiển thị thời tiết cho khu vực hiện tại đơn giản với Javascript, HTML và CSS.
-App có sử dụng API của DarkSky
+App có sử dụng API của Dark Sky
 
-1.PROXY cho API
-demo của [CORS Anywhere](http://cors-anywhere.herokuapp.com/corsdemo) chỉ dùng cho mục đích phát triển app thời tiết với mục tiêu giáo dục
+### PROXY cho API
+Demo của [CORS Anywhere](http://cors-anywhere.herokuapp.com/corsdemo) chỉ dùng cho mục đích phát triển app thời tiết với mục tiêu giáo dục
 
-2.API
-[Dark Sky](https://darksky.net/forecast) API 
-Hết quyền sử dụng vào [cuối 2022](https://blog.darksky.net/)  
+### API:
+- [Dark Sky](https://darksky.net/forecast) API 
+- Hết quyền sử dụng vào [cuối 2022](https://blog.darksky.net/)  
 
-3.Skycons:
+### Skycons:
 [Skycons](https://darkskyapp.github.io/skycons/) là tập 10 glyph animation thời tiết, được tạo lập hệ thống bởi JavaScript bằng tag canvas trong HTML5.
+
+```javascript
 <canvas id="icon1" width="128" height="128"></canvas>
 <canvas id="icon2" width="128" height="128"></canvas>
 
@@ -38,5 +40,5 @@ Hết quyền sử dụng vào [cuối 2022](https://blog.darksky.net/)
   // xoá icon:
   skycons.remove("icon2");
 </script>
-
+```
 
