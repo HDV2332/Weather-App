@@ -1,3 +1,11 @@
+let a=document.createElement('a');
+a.target='_blank';
+a.href='http://cors-anywhere.herokuapp.com/corsdemo';
+if (window.confirm('Nhấn OK để xin quyền truy cập của proxy Cors-Anywhere, nhấn Cancel nếu đã thực hiện.'))
+{
+a.click();
+};
+
 window.addEventListener('load',()=>{    //load khi window đc mở
     let long 
     let lat
