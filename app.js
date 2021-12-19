@@ -1,10 +1,10 @@
-// let a=document.createElement('a');
-// a.target='_blank';
-// a.href='http://cors-anywhere.herokuapp.com/corsdemo';
-// if (window.confirm('Nhấn OK để xin quyền truy cập của proxy Cors-Anywhere, nhấn Cancel nếu đã thực hiện.'))
-// {
-// a.click();
-// };
+let a=document.createElement('a');
+a.target='_blank';
+a.href='http://cors-anywhere.herokuapp.com/corsdemo';
+if (window.confirm('Nhấn OK để xin quyền truy cập của proxy Cors-Anywhere, nhấn Cancel nếu đã thực hiện.'))
+{
+a.click();
+};
 
 window.addEventListener('load',()=>{    //load khi window đc mở
     let long 
@@ -21,10 +21,8 @@ window.addEventListener('load',()=>{    //load khi window đc mở
             long = position.coords.longitude;
             lat = position.coords.latitude;
 
-            // const proxy = 'https://cors-anywhere.herokuapp.com/';       //thông qua template string để tiện thay đổi về sau
-            // const api = `${proxy}https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}`
-            
-            const api = `https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}`
+            const proxy = 'https://cors-anywhere.herokuapp.com/';       //thông qua template string để tiện thay đổi về sau
+            const api = `${proxy}https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}` 
 
             fetch(api)
             .then(response =>{
