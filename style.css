@@ -13,12 +13,31 @@ body{
     font-family: sans-serif;
     color: white;
 }
-.location,.temperature{     /*áp dụng nhiều class*/
-    height: 30vh;
+.request{
+    height: 7.5vh;
+    width: 20%;
+    align-items:center;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    justify-items:right;
+    flex-direction: column;
+}
+.request div{
+    margin-top: 10px;
+    font-size: medium;
+    text-align: center;
+}
+
+.location,.temperature{     
+    height: 25.5vh;
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.location{
+    margin-top: -4vh;
 }
 .temperature{
     flex-direction: column;
@@ -27,6 +46,7 @@ body{
     display: flex;
     align-items: center;
     cursor: pointer;
+    margin-bottom: -7.5vh;
 }
 .degree-section span{
     margin: 10px;
@@ -34,4 +54,8 @@ body{
 }
 .degree-section h2{
     font-size: 40px;
+}
+
+.temperature-description{
+    font-size: 20px;
 }
