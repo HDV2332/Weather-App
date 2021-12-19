@@ -16,7 +16,7 @@ window.addEventListener('load',()=>{    //load khi window đc mở
     const temperatureSpan = document.querySelector(".temperature span")
 
     if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(position=>{      //arrowfuction k có argument(i.e chỉ sự dụng đc ở đó?)
+        navigator.geolocation.getCurrentPosition(position=>{      //arrowfuction không có argument(i.e chỉ sự dụng được ở đó?)
             //console.log(position);
             long = position.coords.longitude;
             lat = position.coords.latitude;
