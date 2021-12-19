@@ -4,7 +4,7 @@ App có sử dụng API của Dark Sky
 
 ### PROXY cho API
 Demo của [CORS Anywhere](http://cors-anywhere.herokuapp.com/corsdemo) chỉ dùng cho mục đích phát triển app thời tiết với mục tiêu giáo dục
-
+Phải xin cấp quyền truy cập, cấp phép trong 2 tiếng.
 ### API:
 - [Dark Sky](https://darksky.net/forecast) API 
 - Hết quyền sử dụng vào [cuối 2022](https://blog.darksky.net/)  
