@@ -2,7 +2,7 @@
 Đây là app hiển thị thời tiết cho khu vực hiện tại đơn giản với Javascript, HTML và CSS.
 App có sử dụng API của Dark Sky
 
-### PROXY cho API
+### PROXY cho API ( cho việc truy cập API tại localhost)
 Demo của [CORS Anywhere](http://cors-anywhere.herokuapp.com/corsdemo) chỉ dùng cho mục đích phát triển app thời tiết với mục tiêu giáo dục.
 Phải xin cấp quyền truy cập, cấp phép trong 2 tiếng.
 ### API:
